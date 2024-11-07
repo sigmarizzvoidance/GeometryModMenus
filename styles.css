@@ -65,6 +65,14 @@ p {
     background-color: #0056b3; /* Darker blue on hover */
 }
 
+/* Small text styling for the "(E-Sign is only for IOS.)" */
+.small-text {
+    font-size: 0.8em;  /* Small text size */
+    color: rgba(255, 255, 255, 0.4);  /* Transparent white */
+    margin-top: 10px;  /* Space between the button and the text */
+    font-style: italic;  /* Italics for a subtle look */
+}
+
 /* Ensure buttons are shown properly */
 button {
     display: inline-block;  /* Make sure buttons are displayed as inline elements */
