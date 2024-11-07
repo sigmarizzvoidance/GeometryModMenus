@@ -43,6 +43,8 @@ p {
     margin-top: 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    width: 200px;  /* Ensure button has some width */
+    text-align: center; /* Align text in the middle */
 }
 
 /* Hover effect for red button */
@@ -59,4 +61,9 @@ p {
 /* Hover effect for blue button */
 .blue-btn:hover {
     background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Ensure buttons are shown properly */
+button {
+    display: inline-block;  /* Make sure buttons are displayed as inline elements */
 }
