@@ -35,7 +35,7 @@ p {
 /* Styling for the download buttons */
 .download-btn {
     background-color: #f00; /* Red button by default */
-    color: white;
+    color: white;  /* Default text color is white */
     border: none;
     padding: 10px 20px;
     font-size: 1.2em;
@@ -56,6 +56,7 @@ p {
 .blue-btn {
     background-color: #007bff; /* Blue button */
     margin-top: 10px; /* Add some space between buttons */
+    color: #00FFFF; /* Light cyan text color */
 }
 
 /* Hover effect for blue button */
